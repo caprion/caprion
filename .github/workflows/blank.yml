@@ -1,0 +1,99 @@
+name: Update profile README — Latest work
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily at 06:00 UTC (adjust as you like)
+  workflow_dispatch:
+
+jobs:
+  update-latest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update README Latest Work
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import os, json, urllib.request, urllib.parse, sys, subprocess
+
+          repo_full = os.environ.get('GITHUB_REPOSITORY')  # e.g. "caprion/caprion"
+          if not repo_full:
+            print("GITHUB_REPOSITORY missing")
+            sys.exit(1)
+          owner = repo_full.split('/')[0]
+
+          token = os.environ.get('GITHUB_TOKEN')
+          headers = {
+            'Accept': 'application/vnd.github.v3+json'
+          }
+          if token:
+            headers['Authorization'] = f'token {token}'
+
+          url = f'https://api.github.com/users/{owner}/repos?per_page=12&sort=pushed'
+          req = urllib.request.Request(url, headers=headers)
+          with urllib.request.urlopen(req) as resp:
+            repos = json.load(resp)
+
+          # Build markdown list for recent repos
+          lines = []
+          lines.append("<!-- START_LATEST_WORK -->")
+          lines.append("")
+          lines.append("Here are some of the repositories I've been working on recently (auto-updated):")
+          lines.append("")
+          count = 0
+          for r in repos:
+            # skip forks if you prefer
+            if r.get('fork'):
+              continue
+            name = r.get('name')
+            html = r.get('html_url')
+            desc = r.get('description') or ''
+            stars = r.get('stargazers_count', 0)
+            pushed = r.get('pushed_at', '')
+            # Short line
+            line = f"- [{name}]({html}) — {desc}".strip()
+            # optionally include stars
+            if stars:
+              line += f" ⭐ {stars}"
+            lines.append(line)
+            count += 1
+            if count >= 8:
+              break
+          if count == 0:
+            lines.append("- No recent public repos found.")
+          lines.append("")
+          lines.append("<!-- END_LATEST_WORK -->")
+          lines.append("")
+
+          new_block = "\n".join(lines)
+
+          readme_path = "README.md"
+          with open(readme_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+          import re
+          pattern = re.compile(r'<!-- START_LATEST_WORK -->(?:.|\n)*?<!-- END_LATEST_WORK -->', re.M)
+          if pattern.search(content):
+            new_content = pattern.sub(new_block, content)
+          else:
+            # If markers missing, append at end
+            new_content = content.strip() + "\n\n" + new_block
+
+          if new_content != content:
+            with open(readme_path, 'w', encoding='utf-8') as f:
+              f.write(new_content)
+            # commit back
+            subprocess.run(['git', 'config', 'user.name', 'github-actions[bot]'], check=True)
+            subprocess.run(['git', 'config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com'], check=True)
+            subprocess.run(['git', 'add', readme_path], check=True)
+            subprocess.run(['git', 'commit', '-m', 'chore: update README Latest Work [skip ci]'], check=True)
+            subprocess.run(['git', 'push'], check=True)
+            print("README updated and pushed.")
+          else:
+            print("No changes to README.")
+          PY
