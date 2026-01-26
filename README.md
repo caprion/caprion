@@ -26,16 +26,17 @@ I build product experiences that make large-scale search and AI work reliably an
 
 Here are some repositories I've worked on recently (auto-updated):
 
+- [writings](https://github.com/caprion/writings) — Writing to Learn
 - [caprion](https://github.com/caprion/caprion) — My GitHub Profile
 - [mythoughts](https://github.com/caprion/mythoughts) — some writings
 - [timelessinsights](https://github.com/caprion/timelessinsights) — Insights from fs blog
 - [running](https://github.com/caprion/running) — Running App - Sync with Garmin
 - [lennypodcast-insights](https://github.com/caprion/lennypodcast-insights) — Insights from lenny's podcast
-- [writings](https://github.com/caprion/writings) — Writing to Learn
 - [beer-game](https://github.com/caprion/beer-game) — Beer Game simulation
 - [legalRAG](https://github.com/caprion/legalRAG) — legal RAG on Indian Law
 
 <!-- END_LATEST_WORK -->
+
 
 
 
