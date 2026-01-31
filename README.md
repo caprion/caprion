@@ -22,7 +22,7 @@ I build experiences that make large-scale search and AI reliable and useful.
 | [Against Entropy](https://againstentropy.pages.dev/) | Writing and explorations around AI, retrieval, and practical experiments |
 | [Timeless Insights](https://timelessinsights.pages.dev/) | Curated wisdom on mental models, decision-making, and clear thinking |
 | [Running Tracker](https://github.com/caprion/running) | Garmin sync, 10-page analytics dashboard, training plans for runners |
-| [Simulation Platform](https://github.com/caprion/SimulationPlatform) | Beer Game prototype for MBA/engineering education |
+| [Simulation Platform](https://github.com/caprion/beer-game) | Beer Game prototype for MBA/engineering education |
 
 ---
 
