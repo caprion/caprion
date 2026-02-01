@@ -29,8 +29,18 @@ I build experiences that make large-scale search and AI reliable and useful.
 ## Latest work
 
 <!-- START_LATEST_WORK -->
-*Auto-updated by GitHub Action — recent repos and descriptions.*
+
+- [running](https://github.com/caprion/running) — Running App - Sync with Garmin
+- [caprion](https://github.com/caprion/caprion) — Profile for caprion
+- [mythoughts](https://github.com/caprion/mythoughts) — some writings
+- [timelessinsights](https://github.com/caprion/timelessinsights) — Insights from fs blog
+- [lennypodcast-insights](https://github.com/caprion/lennypodcast-insights) — Insights from lenny's podcast
+- [beer-game](https://github.com/caprion/beer-game) — Beer Game simulation
+- [legalRAG](https://github.com/caprion/legalRAG) — legal RAG on Indian Law
+- [NLWeb](https://github.com/caprion/NLWeb) — NLWeb copy
+
 <!-- END_LATEST_WORK -->
+
 
 ---
 
