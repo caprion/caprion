@@ -1,18 +1,31 @@
 # Hi, I'm Sumit
 
-Product Manager at **Azure AI Search** by day.  
-Nights and weekends I build tools I actually use.
+Product Manager at **Azure AI Search** — I work at the intersection of **AI, information retrieval, and product**.
 
-<!-- TODO: Write 1-2 sentences in your own words about what drives you.
-     Something like: "I like making things that ___. Most of my projects
-     start because I needed ___ and couldn't find it."
-     Keep it honest, keep it short. -->
+I like to build things that I would eventually use myself. Most of my projects are ideas I've had for years. AI finally makes them practical.
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-3d2b1f?logo=linkedin&logoColor=faf6f0&style=flat)](https://www.linkedin.com/in/stgarg/)
 
 ---
 
-## What I'm building
+## Thinking about thinking
+
+I got into mental models through Farnam Street and Munger's idea of building a latticework of mental models. That interest eventually went deeper — into how we *learn*, not just what we know. Two things came out of it: Clear thinking and focus stands you apart from majority. And when confused, apply Inversion law.
+
+### [learningtolearn](https://github.com/caprion/learningtolearn) — Nudges for curious kids
+
+A parent's guide to sparking curiosity in 9-10 year olds through everyday moments. No worksheets, no screen time — just conversations that make your child *think* while cooking, shopping, or walking together.
+
+Built on Barbara Oakley's "Learning How to Learn" and Arvind Gupta's "Toys from Trash." Prompts are indexed by *context* (kitchen, market, travel) — not by syllabus. 
+
+### What I read & write
+
+- **[Timeless Insights](https://timelessinsights.pages.dev/)** — curated wisdom on mental models and decision-making
+- **[Against Entropy / mythoughts](https://github.com/caprion/mythoughts)** — ideas, reflections, and notes
+
+---
+
+## What I build
 
 ### [SpokenKannada](https://github.com/caprion/spokenKannada) — Learn Bangalore Kannada
 
@@ -22,7 +35,7 @@ AI-powered language learning for colloquial Bangalore Kannada. Spaced repetition
 
 ### [localseek](https://github.com/caprion/localseek) — Local-first document search
 
-Full-text search across your local files. SQLite FTS5, BM25 ranking, zero external dependencies. Optional LLM summarization via Ollama.
+Full-text search across your local files. SQLite FTS5, BM25 ranking, zero external dependencies. Optional LLM summarization via Ollama. This was inspired by Tobi's QMD.
 
 <img src="https://raw.githubusercontent.com/caprion/localseek/master/screenshots/01-home.png" width="400" alt="localseek — home"> <img src="https://raw.githubusercontent.com/caprion/localseek/master/screenshots/02-search-results.png" width="400" alt="localseek — search results">
 
@@ -36,51 +49,13 @@ Syncs from Garmin Connect, 10-page Streamlit dashboard. Consistency tracking, ra
 
 Offline PWA that shows mountains, rivers, and cities along your flight path. Pre-load before boarding, use during flight.
 
----
-
-## Tools I made for myself
+### Tools I made for myself
 
 | | |
 |---|---|
 | **[appshots](https://github.com/caprion/appshots)** | Screenshot automation for READMEs. YAML config, Playwright/Chromium, one command. Every screenshot above was captured with it. |
 | **[designlanguage](https://github.com/caprion/designlanguage)** | My personal design system — warm palettes, serif headings, no AI-generated look. Applied across all projects above. |
-
----
-
-## Writing
-
-<!-- TODO: Write a line about why you write / what you think about.
-     Something like: "I write about ___ when I have something worth saying."
-     or "I think about ___ a lot. Some of it sticks." -->
-
-- [Against Entropy / mythoughts](https://github.com/caprion/mythoughts) — ideas, reflections, and notes
-- [Timeless Insights](https://timelessinsights.pages.dev/) — curated wisdom on mental models and decision-making
-
----
-
-## Other projects
-
-| | |
-|---|---|
 | **[beer-game](https://github.com/caprion/beer-game)** | Beer Distribution Game simulation for MBA/engineering education. Bullwhip effect, behavioral profiles. |
-| **[learningtolearn](https://github.com/caprion/learningtolearn)** | Experiments with nudges — sparking curiosity through everyday moments. |
-| **[legalRAG](https://github.com/caprion/legalRAG)** | RAG pipeline on Indian law. |
-
----
-
-## What I care about
-
-<!-- TODO: Replace these with 2-3 things in your own words.
-     What matters to you as a builder? What's your craft philosophy?
-     Examples to riff on:
-     - "I'd rather build something I use daily than something impressive on paper"
-     - "Tradeoffs are the interesting part — scale, latency, relevance"
-     - "I don't trust AI-generated aesthetics. I designed my own."
-     Write whatever feels true. -->
-
-- [ placeholder ]
-- [ placeholder ]
-- [ placeholder ]
 
 ---
 
