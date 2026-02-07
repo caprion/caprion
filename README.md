@@ -30,16 +30,17 @@ I build experiences that make large-scale search and AI reliable and useful.
 
 <!-- START_LATEST_WORK -->
 
+- [airtrail](https://github.com/caprion/airtrail) — Know what you're flying over. Identify mountains, rivers & cities from your flight
+- [localseek](https://github.com/caprion/localseek) — Local file search
 - [caprion](https://github.com/caprion/caprion) — Profile for caprion
 - [mythoughts](https://github.com/caprion/mythoughts) — some writings
 - [learningtolearn](https://github.com/caprion/learningtolearn) — Experiments with nudges
 - [running](https://github.com/caprion/running) — Running App - Sync with Garmin
 - [timelessinsights](https://github.com/caprion/timelessinsights) — Insights from fs blog
 - [lennypodcast-insights](https://github.com/caprion/lennypodcast-insights) — Insights from lenny's podcast
-- [beer-game](https://github.com/caprion/beer-game) — Beer Game simulation
-- [legalRAG](https://github.com/caprion/legalRAG) — legal RAG on Indian Law
 
 <!-- END_LATEST_WORK -->
+
 
 
 
