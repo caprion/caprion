@@ -24,8 +24,8 @@ Built on Barbara Oakley's "Learning How to Learn" and Arvind Gupta's "Toys from 
 
 My personal site, consolidated under one roof:
 
-- [What I write](https://againstentropy.pages.dev/) — ideas, reflections, and notes
-- [What I read](https://againstentropy.pages.dev/library/) — 64 curated articles on mental models and decision-making
+- [What I read](https://againstentropy.pages.dev/) — 64 curated articles on mental models and decision-making
+- [What I write](https://againstentropy.pages.dev/thoughts/) — ideas, reflections, and notes
 - [What I explain](https://againstentropy.pages.dev/explainers/) — visual one-page explainers (Fourier, entropy, transformers, and more)
 
 ---
