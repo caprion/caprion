@@ -4,18 +4,12 @@ Product Manager at **Azure AI Search**. I work on search and AI at Microsoft, an
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0a66c2?logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/stgarg/)
 [![X](https://img.shields.io/badge/-@gargsumit-000000?logo=x&logoColor=white&style=flat)](https://x.com/gargsumit)
-&nbsp;&nbsp;[againstentropy.pages.dev](https://againstentropy.pages.dev/)
+[![Website](https://img.shields.io/badge/-againstentropy.pages.dev-c2452d?style=flat)](https://againstentropy.pages.dev/)
 
 ---
 
 ## What I think about
-Mental models and decision-making. I curate articles and write some thoughts here.
-
-**[Against Entropy](https://againstentropy.pages.dev/)** 
-
----
-
-## What I write
+Mental models and decision-making. Systems at scale. 
 
 Essays at [againstentropy.pages.dev/thoughts](https://againstentropy.pages.dev/thoughts/) and threads at [@gargsumit](https://x.com/gargsumit) on X.
 
